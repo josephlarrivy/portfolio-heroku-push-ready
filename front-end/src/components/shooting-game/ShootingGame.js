@@ -66,7 +66,7 @@ const ShootingGame = () => {
         setTimeout(() => {
           // setLetters([...letters.slice(0, id), ...letters.slice(id + 1)])
           letters[id].class = 'letter'
-        }, 6000)
+        }, 2000)
       }
     }
   }

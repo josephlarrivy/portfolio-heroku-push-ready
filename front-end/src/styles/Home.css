@@ -234,7 +234,7 @@
 }
 
 .home-icon-one {
-  background-image: url('/Users/josephlarrivy/software-engineering/other-projects/react-portfolio-site/front-end/src/images/business-management-icon.png');
+  background-image: url('../images/business-management-icon.png');
   /* background-color: #F99417; */
   background-size: 100%;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@
 }
 
 .home-icon-two {
-  background-image: url('/Users/josephlarrivy/software-engineering/other-projects/react-portfolio-site/front-end/src/images/operations-icon.png');
+  background-image: url('../images/operations-icon.png');
   /* background-color: #F99417; */
   background-size: 100%;
   background-repeat: no-repeat;
