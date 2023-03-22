@@ -1,0 +1,94 @@
+#game-container {
+  margin-top: 5vh;
+  width: 95%;
+  /* margin-left: 5%; */
+  height: 95vh;
+  /* border: 1px solid black; */
+}
+
+#game-container p {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+
+.letters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-left: 40px;
+}
+
+
+
+.ship {
+  position: absolute;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  margin-top: 45vh;
+  /* margin-left: -5px; */
+}
+
+
+
+.bullet {
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background-color: white;
+  opacity: 0;
+
+  animation: move-bullet linear;
+  animation-duration: 0.5s;
+}
+@keyframes move-bullet {
+  0% {
+    margin-top: 45vh;
+    opacity: 1;
+  }
+  99.999% {
+    /* margin-top: 10px; */
+    opacity: 1;
+  }
+  100% {
+    margin-top: -100px;
+  }
+}
+
+
+
+
+
+
+
+.letter {
+  background-color: #F99417;
+  color: white;
+  font-size: 50px;
+}
+
+.letter-hit {
+  /* background-color: #F99417; */
+  /* width: 100px; */
+  color: white;
+  font-size: 50px;
+
+  animation: letter-hit;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+@keyframes letter-hit {
+  from {
+      -webkit-transform: rotate(0deg);
+      /* -o-transform: rotate(0deg); */
+      transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(360deg);
+      /* -o-transform: rotate(360deg); */
+      transform: rotate(360deg);
+      scale: 0;
+    }
+}

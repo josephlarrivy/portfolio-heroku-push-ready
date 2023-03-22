@@ -1,0 +1,281 @@
+.home-container {
+  /* margin-top: 20vh; */
+  display: flex;
+  text-align: center;
+}
+
+
+.right-side {
+  z-index: 2;
+  width: 50%;
+  margin-left: 50%;
+  margin: auto;
+}
+
+
+
+
+.rotate-container {
+  /* animation-name: rotate-logos;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; */
+  animation: rotate-logos 8s linear infinite;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes rotate-logos {
+  to {
+      transform: rotate(360deg);
+    }
+}
+
+
+.no-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/blank.png');
+  margin: auto;
+}
+
+
+.react-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/react-icon.png');
+  margin: auto;
+}
+
+.python-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/python-icon.webp');
+  margin: auto;
+}
+
+.flask-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/flask-icon.png');
+  margin: auto;
+}
+
+.postgres-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/postgresql-icon.svg');
+  margin: auto;
+}
+
+.node-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/pngfind.com-js-logo-png-6833893.png');
+  margin: auto;
+}
+
+.javascript-icon {
+  width: 20vw;
+  height: 20vw;
+  background-size: 20vw 20vw;
+  border-radius: 20px;
+  background-image: url('../images/javascript-39404.png');
+  margin: auto;
+}
+
+
+
+
+
+
+/* messing around with squares */
+
+.board {
+  /* background-color: #333745; */
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+  margin-top: 0rem;
+  padding-right: 0rem;
+  padding-top: 0rem;
+}
+
+.off {
+  background-color: #F99417;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0.2rem;
+  margin-top: 0.005rem;
+  display: inline-block;
+}
+
+.on {
+  background-color: black;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0.2rem;
+  margin-top: 0.005rem;
+  display: inline-block;
+}
+
+.border {
+  background-color: #F5F5F5;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 0.2rem;
+  margin-top: 0.005rem;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+.logo-main-container {
+  width: 100%;
+  height: 100%;
+}
+
+
+.logo-container {
+  animation-name: logo-container-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes logo-container-animation {
+  
+}
+
+
+.logo {
+  color: #F99417;
+  /* height: 100%; */
+  /* width: 100%; */
+  /* font-size: 400px; */
+  border: 1px solid black;
+  animation-name: logo-animation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo-animation {
+  0% {
+      color: red;
+    }
+  
+    25% {
+      color: yellow;
+    }
+  
+    50% {
+      color: blue;
+    }
+  
+    100% {
+      color: green;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.left-side {
+  z-index: 2;
+  width: 50%;
+  height: 85vh;
+  padding-top: 5vh;
+  /* background-color: aqua; */
+}
+
+.main-name {
+  margin-top: 20vh;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin-top: 1vh;
+}
+
+
+.mini-icons-container {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-icon-one {
+  background-image: url('/Users/josephlarrivy/software-engineering/other-projects/react-portfolio-site/front-end/src/images/business-management-icon.png');
+  /* background-color: #F99417; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 110px;
+
+  animation: spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.home-icon-two {
+  background-image: url('/Users/josephlarrivy/software-engineering/other-projects/react-portfolio-site/front-end/src/images/operations-icon.png');
+  /* background-color: #F99417; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 109px;
+  height: 98px;
+  margin-top: 5px;
+
+  animation: spin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.icons-subtitles-container {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 1vh;
+  display: flex;
+  justify-content: space-around;
+}

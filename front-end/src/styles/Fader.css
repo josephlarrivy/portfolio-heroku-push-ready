@@ -1,0 +1,53 @@
+.pre-fade {
+    opacity: 0;
+    color: transparent;
+}
+
+.fade-in {
+    /* color: black; */
+    transition: 3000 ease;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 3000 ease;
+}
+
+
+
+
+.no-logo {
+    opacity: 0;
+}
+
+.logo-fade-in {
+    animation: fadeIn 1s;
+}
+
+.logo-on {
+    opacity: 1;
+}
+
+.logo-fade-out {
+    animation: fadeOut 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

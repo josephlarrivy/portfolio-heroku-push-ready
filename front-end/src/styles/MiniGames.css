@@ -1,0 +1,159 @@
+.play-page {
+  background-color: #F5F5F5;
+  margin-top: 2vh;
+  border-top: black;
+	list-style-type: none;
+  width: 100vw;
+}
+
+
+
+.game-thumbnails-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* margin: 50px auto; */
+  margin-top: 10%;
+}
+
+.game-instruction-card {
+  margin: auto;
+}
+
+.orbiter-minigames {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #F99417;
+
+  animation: orbit-minigames;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes orbit-minigames {
+  0% {
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+
+  25% {
+    margin-top: -20px;
+    margin-left: 200px;
+  }
+
+  50% {
+    margin-top: 200px;
+    margin-left: 200px;
+  }
+
+  75% {
+    margin-top: 200px;
+    margin-left: -20px;
+  }
+
+  100% {
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+}
+
+
+
+
+
+
+.game-of-life-thumbnail {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid black;
+  /* color: white; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.game-of-life-thumbnail:hover {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid black;
+  /* color: white; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.game-of-life-thumbnail h3 {
+  position: absolute;
+  margin-top: 50px;
+  width: 180px;
+  margin-left: 10px;
+}
+
+
+.snake-game-thumbnail {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid black;
+  /* color: white; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.snake-game-thumbnail:hover {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid black;
+  /* color: white; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.snake-game-thumbnail h3 {
+  position: absolute;
+  margin-top: 50px;
+  width: 180px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+button {
+  background-color: #F99417;
+  border: none;
+  font-size: larger;
+  border-radius: 4px;
+  padding: 0.4rem;
+  margin: 0.05rem
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #F5F5F5;
+  color: #F99417;
+  border: none;
+  font-size: larger;
+  border-radius: 4px;
+  padding: 0.4rem;
+  margin: 0.05rem
+}
+
+.playGameButton {
+  cursor: pointer;
+  color: #F99417;
+}
+.playGameButton:hover {
+  cursor: pointer;
+  color: black;
+}

@@ -1,0 +1,235 @@
+.education-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-education-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto;
+    margin-top: 5%;
+}
+
+.education-square {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid black;
+    /* color: white; */
+    text-align: center;
+    vertical-align: middle;
+}
+
+.education-square h4 {
+    position: absolute;
+    margin-top: 50px;
+    width: 180px;
+    margin-left: 10px;
+}
+
+.education-square:hover {
+    width: 600px;
+    height: 600px;
+}
+
+.education-square:hover h4 {
+    visibility: hidden;
+}
+
+
+.background {
+    position: absolute;
+    background-color: #F99417;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in-out;
+}
+
+.education-square:hover .background {
+    position: absolute;
+    background-color: #F99417;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 580px;
+    height: 580px;
+}
+
+.education-square:first-child:hover::after {
+    /* content: "square 1"; */
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+
+.education-content {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.education-square:hover .education-content {
+    position: absolute;
+    visibility: visible;
+    z-index: 10;
+    color: white;
+    width: 520px;
+    margin: 30px;
+
+    animation: fade-in-text;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade-in-text {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* .square:nth-child(2) {
+  background-color: #F99417;
+} */
+.education-square:nth-child(2):hover::after {
+    content: "square 2";
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/* .square:last-child {
+  background-color: #F99417;
+} */
+.education-square:last-child:hover::after {
+    content: "square 3";
+    display: block;
+    font-size: 16px;
+    color: white;
+}
+
+
+.orbiter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #F99417;
+
+    animation: orbit;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes orbit {
+    0% {
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+
+    25% {
+        margin-top: -20px;
+        margin-left: 200px;
+    }
+
+    50% {
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    75% {
+        margin-top: 200px;
+        margin-left: -20px;
+    }
+
+    100% {
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+}
+
+
+
+
+
+
+.education-square:hover .orbiter {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #F99417;
+
+    animation: orbit-large;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes orbit-large {
+    0% {
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+
+    25% {
+        margin-top: -20px;
+        margin-left: 600px;
+    }
+
+    50% {
+        margin-top: 600px;
+        margin-left: 600px;
+    }
+
+    75% {
+        margin-top: 600px;
+        margin-left: -20px;
+    }
+
+    100% {
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+}
+
+
+
+
+
+.education-content-icon-springboard {
+    background-image: url('../images/springboard-logo.png');
+    background-size: 200px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education-content-icon-uws {
+    background-image: url('../images/uws.jpg');
+    background-size: 200px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education-content-icon-cca {
+    background-image: url('../images/cca-logo.jpeg');
+    background-size: 200px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}

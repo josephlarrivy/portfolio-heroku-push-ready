@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+body {
+  background-color: lightgrey;
+  overflow: hidden;
+}
+
+#go-to-homepage {
+  margin-top: 10px;
+}
+
+#floater-one {
+  position: absolute;
+  z-index: 1;
+  background-color: #F99417;
+  width: 20vh;
+  height: 20vh;
+  margin-left: 15vw;
+  pointer-events: none;
+
+  animation-name: float-square;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  /* animation-delay: */
+}
+
+
+#floater-two {
+  position: absolute;
+  z-index: 0;
+  background-color: #F99417;
+  width: 20vh;
+  height: 20vh;
+  margin-left: 35vw;
+  pointer-events: none;
+
+  animation-name: float-square;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-delay: -9s;
+}
+
+
+#floater-three {
+  position: absolute;
+  z-index: 1;
+  background-color: #F99417;
+  width: 20vh;
+  height: 20vh;
+  margin-left: 55vw;
+  pointer-events: none;
+
+  animation-name: float-square;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-delay: -3s;
+}
+
+#floater-four {
+  position: absolute;
+  z-index: 1;
+  background-color: #F99417;
+  width: 20vh;
+  height: 20vh;
+  pointer-events: none;
+  margin-left: 75vw;
+
+  animation-name: float-square;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-delay: -7s;
+}
+
+@keyframes float-square {
+  0% {
+    margin-top: 120vh;
+    opacity: .1;
+  }
+
+  25% {
+    transform: rotate(50deg);
+  }
+
+  75% {
+    transform: rotate(100deg);
+  }
+
+  100% {
+    margin-top: -200vh;
+    opacity: .1;
+    transform: rotate(150deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+#page-container-pre {
+  background-color: #F99417;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 5;
+  text-align: center;
+}
+
+
+
