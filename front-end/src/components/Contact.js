@@ -33,8 +33,7 @@ const Contact = () => {
         <ContactForm />
 
 
-        <br></br>
-        <br></br>
+        
         <br></br>
         <br></br>
 

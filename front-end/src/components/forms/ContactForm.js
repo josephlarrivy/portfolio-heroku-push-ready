@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ApiRequest from "../../api";
-
+// import ApiRequest from "../../api";
+import emailjs from 'emailjs-com';
 
 import './ContactForm.css'
 
@@ -25,7 +25,17 @@ const ContactForm = () => {
 
   const handleSubmit = async (evt) => {
     evt.preventDefault();
-    const request = await ApiRequest.sendMessage(formData)
+    // const request = await ApiRequest.sendMessage(formData)
+    
+    emailjs.sendForm('service_yfh2nmo', 'template_8xoo1dd', evt.target, 'dOwl-x9RcwhboytS1')
+      // .then((result) => {
+      //   window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      // }, (error) => {
+      //   console.log(error.text);
+      // });
+  // }
+
+
     setFormData(INITIAL_STATE)
   }
 
