@@ -8,7 +8,7 @@ import ShootingGame from './components/shooting-game/ShootingGame';
 
 function App() {
 
-  const [phase, setPhase] = useState('phase-one')
+  const [phase, setPhase] = useState('show-main')
   const [squareClass, setSquareClass] = useState('start-square')
 
   const handleClick1 = () => {
