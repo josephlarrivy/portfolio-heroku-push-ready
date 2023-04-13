@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="iron-man-icon"></div>
             <h2>Marvel</h2>
             <p>Search, collect, and comment on your favorite Marvel characters and comics.</p>
-            <p><b>Languages </b>Python, Flask, Jinja</p>
+            <p><b>Languages </b>Python, Flask, Jinja, PostgreSQL</p>
             <p style={{hover: "pointer"}}>Click to visit</p>
 
           </div>
