@@ -20,9 +20,9 @@ function NavBar({navItemClick}) {
 					<NavItem>
 						<NavLink to="/minigames" onClick={navItemClick}>miniGames</NavLink>
 					</NavItem>
-					{/* <NavItem>
+					<NavItem>
 						<NavLink to="/projects" onClick={navItemClick}>Projects</NavLink>
-					</NavItem> */}
+					</NavItem>
 					<NavItem>
 						<NavLink to="/contact" onClick={navItemClick}>Contact</NavLink>
 					</NavItem>

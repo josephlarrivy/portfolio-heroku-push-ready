@@ -6,7 +6,7 @@ import './styles/Fader.css'
 
 import Home from './components/Home'
 import Education from './components/Education';
-// import Projects from './components/Projects';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import NavbarContainer from './components/nav/NavbarContainer';
 import MiniGames from './components/MiniGames';
@@ -38,7 +38,7 @@ const Router = () => {
             <Route path="/" element={<Home />} />
             <Route path="/education" element={<Education />} />
             <Route path="/minigames" element={<MiniGames />} />
-            {/* <Route path="/projects" element={<Projects />} /> */}
+            <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
       </BrowserRouter>
