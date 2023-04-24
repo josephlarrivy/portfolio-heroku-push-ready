@@ -228,3 +228,15 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.parkexplorer-icon {
+    background-image: url('../images/parks-icon.png');
+    background-size: 400px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

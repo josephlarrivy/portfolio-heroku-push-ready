@@ -23,6 +23,20 @@ const Projects = () => {
           <div className="projects-orbiter"></div>
         </div></a>
 
+        <a href="https://parkexplorerpro-client.herokuapp.com/" target="_blank"><div class="projects-square">
+          <div className='projects-background'></div>
+          <h4>ParkExplorerPro</h4>
+          <div className='projects-content'>
+            <div className="parkexplorer-icon"></div>
+            <h2>ParkExplorerPro</h2>
+            <p>Explore and search national parks to find campgrounds, weather, articles, visitor centers, things to do, events, and more.</p>
+            <p><b>Languages </b>React, Node, Express</p>
+            <p style={{ hover: "pointer" }}>Click to visit</p>
+
+          </div>
+          <div className="projects-orbiter"></div>
+        </div></a>
+
         <a href="http://computersciencevisualizer.herokuapp.com/" target="_blank"><div class="projects-square">
           <div className='projects-background'></div>
           <h4>ComputerScienceVisualizer.com</h4>
