@@ -7,14 +7,14 @@
 .container-projects-inner {
     display: flex;
     justify-content: space-around;
-    width: 90%;
-    margin: 50px auto;
+    width: 96%;
+    margin: auto;
     margin-top: 5%;
 }
 
 .projects-square {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     transition: all 0.3s ease-in-out;
     border: 2px solid black;
@@ -26,13 +26,14 @@
 .projects-square h4 {
     position: absolute;
     margin-top: 80px;
-    width: 280px;
-    margin-left: 10px;
+    width: 200px;
+    /* margin-left: 20px; */
+    text-align: center;
 }
 
 .projects-square:hover {
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
 }
 
 .projects-square:hover h4 {
@@ -45,8 +46,8 @@
     background-color: #F99417;
     margin-left: 10px;
     margin-top: 10px;
-    width: 280px;
-    height: 280px;
+    width: 180px;
+    height: 180px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -55,8 +56,8 @@
     background-color: #F99417;
     margin-left: 10px;
     margin-top: 10px;
-    width: 580px;
-    height: 580px;
+    width: 280px;
+    height: 280px;
 }
 
 .projects-square:first-child:hover::after {
@@ -76,8 +77,8 @@
     position: absolute;
     visibility: visible;
     z-index: 10;
-    color: white;
-    width: 520px;
+    color: black;
+    width: 250px;
     margin: 30px;
 
     animation: fade-in-text-projects;
@@ -141,16 +142,16 @@ a {
 
     25% {
         margin-top: -20px;
-        margin-left: 300px;
+        margin-left: 200px;
     }
 
     50% {
-        margin-top: 300px;
-        margin-left: 300px;
+        margin-top: 200px;
+        margin-left: 200px;
     }
 
     75% {
-        margin-top: 300px;
+        margin-top: 200px;
         margin-left: -20px;
     }
 
@@ -184,16 +185,16 @@ a {
 
     25% {
         margin-top: -20px;
-        margin-left: 600px;
+        margin-left: 300px;
     }
 
     50% {
-        margin-top: 600px;
-        margin-left: 600px;
+        margin-top: 300px;
+        margin-left: 300px;
     }
 
     75% {
-        margin-top: 600px;
+        margin-top: 300px;
         margin-left: -20px;
     }
 
@@ -210,33 +211,44 @@ a {
 .iron-man-icon {
     background-image: url('../images/iron-man.png');
     background-size: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
     width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
+    margin-left: 20px;
 }
 
 
 .csv-icon {
     background-image: url('../images/csv.png');
     background-size: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-repeat: no-repeat;
     width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
+    margin-left: 20px;
 }
 
 
 .parkexplorer-icon {
     background-image: url('../images/parks-icon.png');
-    background-size: 400px;
-    border-radius: 5px;
+    background-size: 200px;
+    border-radius: 10px;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 200px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
 }
+
+.mrna-icon {
+    background-image: url('../images/mrna-screenshot.png');
+    background-size: 200px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+
+
