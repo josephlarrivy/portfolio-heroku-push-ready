@@ -82,7 +82,7 @@
     margin: 30px;
 
     animation: fade-in-text-projects;
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 @keyframes fade-in-text-projects {
@@ -94,6 +94,27 @@
         opacity: 1;
     }
 }
+
+.projects-square:hover .projects-content-info {
+    position: absolute;
+    margin-top: 100px;
+    width: 400px;
+    margin-left: -80px;
+    animation: move-projects-info;
+    animation-duration: 2s;
+}
+@keyframes move-projects-info {
+    0% {
+        margin-top: -200px;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 100px;
+        opacity: 1;
+    }
+}
+
+
 
 
 /* .square:nth-child(2) {
@@ -210,44 +231,52 @@ a {
 
 .iron-man-icon {
     background-image: url('../images/iron-man.png');
-    background-size: 200px;
+    background-size: 220px;
     border-radius: 10px;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 300px;
-    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-position: center center;
 }
 
 
 .csv-icon {
     background-image: url('../images/csv.png');
-    background-size: 200px;
+    background-size: 220px;
     border-radius: 10px;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 300px;
-    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-position: center center;
 }
 
 
 .parkexplorer-icon {
     background-image: url('../images/parks-icon.png');
-    background-size: 200px;
+    background-size: 220px;
     border-radius: 10px;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 300px;
-    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-position: center center;
 }
 
 .mrna-icon {
     background-image: url('../images/mrna-screenshot.png');
-    background-size: 200px;
+    background-size: 250px;
     border-radius: 10px;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 300px;
-    margin-left: 20px;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-position: center center;
 }
 
 
