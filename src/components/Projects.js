@@ -9,15 +9,15 @@ const Projects = () => {
     <div className="projects-container">
       <div class="container-projects-inner">
         
-        <a href="https://springboard-capstone-marvel.herokuapp.com/home" target="_blank"><div class="projects-square">
+        <a href="https://nasa-exploration.herokuapp.com/" target="_blank"><div class="projects-square">
           <div className='projects-background'></div>
-          <h4>Marvel</h4>
+          <h4>NASA Exploration</h4>
           <div className='projects-content'>
-            <div className="iron-man-icon"></div>
+            <div className="earth-icon"></div>
             <div className="projects-content-info">
-              <h2>Marvel</h2>
-              <p>Search, collect, and comment on your favorite Marvel characters and comics.</p>
-              <p><b>Languages </b>Python, Flask, Jinja, PostgreSQL</p>
+              <h2>NASA Exploration</h2>
+              <p>This website provides a collection of stunning images of planets, spacecraft, and satellites, all retrieved from the NASA API. In addition, you can track the location of satellites in real-time using the satellite tracking data.</p>
+              <p><b>Languages </b>React</p>
             </div>
           </div>
           <div className="projects-orbiter"></div>

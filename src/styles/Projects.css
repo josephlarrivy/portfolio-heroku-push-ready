@@ -241,6 +241,18 @@ a {
     background-position: center center;
 }
 
+.earth-icon {
+    background-image: url('../images/earth.png');
+    background-size: 220px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-position: center center;
+}
+
 
 .csv-icon {
     background-image: url('../images/csv.png');
